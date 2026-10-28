@@ -1,0 +1,46 @@
+[
+  {
+    "nomi": "By Dilis Kinder kattasi",
+    "kategoriya": "tortlar",
+    "tavsif": "Haqiqiy Kinder shokoladi, nozik biskvit va ustiga mo'l-ko'l sara yangi qulupnay, golubika hamda malina rezavorlari bilan bezatilgan shohona katta tort.",
+    "narxi": 159000,
+    "dona_narxi": null,
+    "butun_narxi": 159000,
+    "qoshimcha": "⭐ TOP XIT",
+    "rasmlar": [
+      "assets/images/dilis-kinder-1.jpg",
+      "assets/images/dilis-kinder-2.jpg",
+      "assets/images/dilis-kinder-3.jpg",
+      "assets/images/dilis-kinder-4.jpg"
+    ]
+  },
+  {
+    "nomi": "By Dilis Kinder kichkinasi",
+    "kategoriya": "tortlar",
+    "tavsif": "O'sha mashhur shohona Kinder lazzati va yangi rezavor mevalar endi qulay, ixcham o'lchamda. Shinam kechalar va shirin sovg'a uchun mukammal tanlov.",
+    "narxi": 129000,
+    "dona_narxi": null,
+    "butun_narxi": 129000,
+    "qoshimcha": "⭐ SEVIMLI",
+    "rasmlar": [
+      "assets/images/dilis-kinder-mini-2.jpg",
+      "assets/images/dilis-kinder-mini-1.jpg",
+      "assets/images/dilis-kinder-mini-3.jpg",
+      "assets/images/dilis-kinder-mini-4.jpg"
+    ]
+  },
+  {
+    "nomi": "San Sebastian Classika",
+    "kategoriya": "pishiriqlar",
+    "tavsif": "Har bir bo'lakdada shirin baxt!",
+    "narxi": 18000,
+    "dona_narxi": 18000,
+    "butun_narxi": 216000,
+    "qoshimcha": "⭐ EKSKLYUZIV",
+    "rasmlar": [
+      "https://i.postimg.cc/kMwS1NMr/photo-2026-10-28-09-03-27.jpg",
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=700",
+      "assets/images/hero-cake.jpg"
+    ]
+  }
+]

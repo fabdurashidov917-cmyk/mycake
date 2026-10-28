@@ -1,0 +1,4 @@
+window.MYCAKE_INITIAL_MENU_CSV = `nomi,tavsif,dona narxi,butun narxi,qo'shimcha,rasm linki
+By Dilis Kinder kattasi,"Haqiqiy Kinder shokoladi, nozik biskvit va ustiga mo'l-ko'l sara yangi qulupnay, golubika hamda malina rezavorlari bilan bezatilgan shohona katta tort.",,159000,⭐ TOP XIT,assets/images/dilis-kinder-1.jpg | assets/images/dilis-kinder-2.jpg | assets/images/dilis-kinder-3.jpg | assets/images/dilis-kinder-4.jpg
+By Dilis Kinder kichkinasi,"O'sha mashhur shohona Kinder lazzati va yangi rezavor mevalar endi qulay, ixcham o'lchamda. Shinam kechalar va shirin sovg'a uchun mukammal tanlov.",,129000,⭐ SEVIMLI,assets/images/dilis-kinder-mini-2.jpg | assets/images/dilis-kinder-mini-1.jpg | assets/images/dilis-kinder-mini-3.jpg | assets/images/dilis-kinder-mini-4.jpg
+San Sebastian Classika,Har bir bo'lakdada shirin baxt!,18000,216.000,⭐ EKSKLYUZIV,https://i.postimg.cc/kMwS1NMr/photo-2026-10-28-09-03-27.jpg`;

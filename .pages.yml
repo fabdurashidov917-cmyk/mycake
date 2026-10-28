@@ -1,0 +1,51 @@
+media:
+  input: assets/images
+  output: assets/images
+
+content:
+  - name: menu
+    label: "🍰 Shirinliklar Menyusi"
+    type: file
+    path: menu.json
+    format: json
+    list: true
+    fields:
+      - name: nomi
+        label: "Mahsulot nomi"
+        type: string
+        required: true
+        description: "Masalan: By Dilis Kinder kattasi, San Sebastian Classika"
+      - name: kategoriya
+        label: "Kategoriya"
+        type: select
+        options:
+          values:
+            - tortlar
+            - pishiriqlar
+            - desertlar
+            - ichimliklar
+      - name: tavsif
+        label: "Tavsifi"
+        type: text
+        description: "Mahsulot tarkibi va qisqacha ma'lumot"
+      - name: narxi
+        label: "Asosiy narxi (so'm)"
+        type: number
+        description: "Bitta narx bo'lsa (masalan: 159000)"
+      - name: dona_narxi
+        label: "Dona narxi (so'm)"
+        type: number
+        description: "Bo'lak narxi"
+      - name: butun_narxi
+        label: "Butun narxi (so'm)"
+        type: number
+        description: "Butun holda sotiladigan narxi"
+      - name: qoshimcha
+        label: "Qo'shimcha nishon"
+        type: string
+        description: "Masalan: ⭐ TOP XIT, ⭐ SEVIMLI"
+      - name: rasmlar
+        label: "Rasmlar (Karusel)"
+        type: image
+        list: true
+        description: "Bir nechta rasm yuklansa, saytda avtomatik karusel bo'lib aylanadi"

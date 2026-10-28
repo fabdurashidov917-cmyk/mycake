@@ -14,38 +14,47 @@ content:
         label: "Mahsulot nomi"
         type: string
         required: true
-        description: "Masalan: By Dilis Kinder kattasi, San Sebastian Classika"
+        description: "Shirinlikning to'liq nomini yozing. Masalan: By Dilis Kinder kattasi, San Sebastian Classika"
+
       - name: kategoriya
         label: "Kategoriya"
         type: select
+        required: true
+        description: "Mahsulot saytda to'g'ri bo'limda chiqishi uchun ro'yxatdan birini tanlang"
         options:
           values:
             - tortlar
             - pishiriqlar
             - desertlar
             - ichimliklar
+
       - name: tavsif
         label: "Tavsifi"
         type: text
-        description: "Mahsulot tarkibi va qisqacha ma'lumot"
+        description: "Tarkibi va ta'mi haqida qisqacha ma'lumot (masalan: Belgia shokoladi, mayin biskvit)"
+
       - name: narxi
         label: "Asosiy narxi (so'm)"
         type: number
-        description: "Bitta narx bo'lsa (masalan: 159000)"
+        description: "Faqat raqam yozing (masalan: 159000). Probel, so'm yoki nuqta ishlatmang!"
+
       - name: dona_narxi
         label: "Dona narxi (so'm)"
         type: number
-        description: "Bo'lak narxi"
+        description: "Bo'laklab sotilsa yozing (faqat raqam, masalan: 28000). Bo'lmasa bo'sh qoldiring"
+
       - name: butun_narxi
         label: "Butun narxi (so'm)"
         type: number
-        description: "Butun holda sotiladigan narxi"
+        description: "Butun holda sotiladigan narxi (faqat raqam, masalan: 220000). Bo'lmasa bo'sh qoldiring"
+
       - name: qoshimcha
         label: "Qo'shimcha nishon"
         type: string
-        description: "Masalan: ⭐ TOP XIT, ⭐ SEVIMLI"
+        description: "Saytda yorliq bo'lib ko'rinadi. Masalan: ⭐ TOP XIT, 🔥 AKSIYA, ✨ YANGILIK"
+
       - name: rasmlar
         label: "Rasmlar (Karusel)"
         type: image
         list: true
-        description: "Bir nechta rasm yuklansa, saytda avtomatik karusel bo'lib aylanadi"
+        description: "Birinchi rasm asosiy muqova bo'ladi. Sayt tez ochilishi uchun har bir rasm hajmi 1-2 MB dan oshmasin"
